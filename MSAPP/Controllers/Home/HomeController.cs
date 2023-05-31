@@ -60,7 +60,7 @@ namespace TestApp.Controllers.Home
         public IActionResult Update(Employee em)
         {
             
-            _IEmployeeRepository.Update(em);
+            //_IEmployeeRepository.Update(em);
 
             return RedirectToAction("Index");
         }
